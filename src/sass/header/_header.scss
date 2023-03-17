@@ -1,0 +1,82 @@
+header{
+	position: absolute;
+    top: 0;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #474747;
+    margin-top: 5px;
+    .logo-area{
+    	a{
+    		line-height: 150px;
+    		display: inline-block;
+            &.non-scrool{
+                display: inline-block;
+            }
+            &.scrool{
+                display: none;
+            }
+    	}
+    }
+    &.sticky{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        margin: 0;
+        z-index: 9999;
+        border:none;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        .logo-area{
+            a{
+                line-height: 80px;
+                &.non-scrool{
+                    display: none;
+                }
+                &.scrool{
+                    display: inline-block;
+                }
+            }
+        }
+        .main-menu{
+            nav{
+                ul{
+                    li{
+                        a{
+                            line-height: 80px;
+                            color: #212121;
+                        }
+                    }
+                }
+            }
+        }
+        .header-right{
+            line-height: 80px;
+            .con-tc{
+                color: #212121;
+            }
+        }
+    }
+    .mobile-menu-area{
+        display: none;
+        .mean-container .mean-nav{
+            position: absolute;
+            top: 100%;
+            z-index: 99999;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); 
+            ul{
+                height: 350px;
+                overflow-y: scroll;
+                li{
+                    ul{
+                        overflow: visible;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+footer{
+	display: block;
+	position: relative;
+	background: url(images/footer/logo.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 75px;
+	&:after{
+		content:'';
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.8);
+	}
+}

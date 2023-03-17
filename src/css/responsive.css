@@ -1,0 +1,172 @@
+/* Extra Large Devices, Wide Screens */
+@media only screen and (max-width : 1600px) {
+	.product-area .owl-controls .owl-buttons div.owl-prev{left: 0;}
+	.product-area .owl-controls .owl-buttons div.owl-next{right: 0;}
+
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .header-right .con-tc{display: none;}
+	.services-area .slider-list .left-img .bott-img{padding-left: 50px;}
+	.product-area .owl-controls .owl-buttons{display: none;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.contact-area .map-area .go-map {
+		right: 0;
+	}
+	.contact-area .map-area .go-map:after{
+		display:none;
+	}
+	.blog-details-area .content-area .tags-share .share {
+			text-align: left;
+			margin-top: 30px;
+		}
+	.slider-area{padding: 250px 0 170px;}
+	.slider-area .content{padding: 0 0 50px;}
+	.slider-area .content p{margin: 0 auto 40px;}
+	.slider-area .content{text-align: center;}
+	header .header-right{display: none;}
+	header .main-menu nav ul li a{font-size: 13px;}
+	.services-area {margin: 0 0 100px;}
+	.services-area .services-slider{padding: 0 15px;}
+	.services-area .slider-list .content-services{position: relative;box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);top: 0;left: 0;right: 0;width: 100%;border:1px solid #e1e1e1;}
+	.services-area .slider-list .content-services .content-list-left::after{display: none;}
+	.services-area .slider-list .content-services .content-list-right::after{display: none;}
+	.services-area .slider-list .content-services .content-list-right .con-ser{display: initial;}
+	.services-area .slider-list .content-services .content-list-right .con-ser a{display: block;overflow: hidden;vertical-align: middle;}
+	.testimonial-area{padding: 100px 0;}
+	.about-area .about-content{margin: 0 0 40px;}
+	.therapies-area .therapies .threapies-form{margin-top: 40px;}
+	.twitter-area .owl-controls .owl-buttons{right: 0;}
+	footer .footer-top .map-area{margin-top: 50px;}
+	footer .footer-bottom .bot-social{text-align: center;}
+	footer .footer-bottom .copyright{text-align: center;margin: 0 0 20px;}
+	.spa_services_inner_wrapper{padding-bottom:0; margin:0;}
+	.spa_blog_single_wrapper{margin-top:50px;}
+}
+@media only screen and (max-width : 766px) {
+	header {margin: 0;}
+	header .container-fluid{display: none;}
+	.mobile-menu-area{display: block !important;}
+	.slider-area{margin-top:0;}
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+		.blog-details-area .content-area .tags-share .tags ul li a {
+			margin-bottom: 20px;}
+		.blog-details-area .content-area .tags-share .share {
+			text-align: left;
+			margin-top: 30px;
+		}
+	
+	.slider-area{padding: 200px 0 170px;}
+	.slider-area .content p{width: 95%;}
+	.section1{padding: 75px 0 0;}
+	.section2{padding: 75px 0;}
+	.section3{padding: 75px 0 45px;}
+	.services-area{margin: 0 0 75px;}
+	.testimonial-area{padding: 75px 0;}
+	.about-area .about-photo{margin: 0 0 75px;}
+	.gallery-area{margin-top: 265px;}
+	.therapies-area .therapies figure{margin: 0 0 30px;}
+	.videos-area .videos .tab-content .tab-pane figure a{width: 100px;height: 100px;line-height: 100px;font-size: 30px;top: 32%;}
+	.videos-area .videos ul li a{font-size: 14px;padding: 0 5px 15px}
+	.videos-area .videos ul{margin: 0 0 40px;}
+	.blog-area{margin-top: 360px;margin-bottom: 75px;}
+	.team-area{margin-top: 360px}
+	.twitter-area .owl-controls{display: none !important;}
+	.twitter-area .twitter-post .con p{width: 100%;}
+	footer .footer-top .map-area address{top: 30%;width: 60%;}
+	.spa_about_team_section, .spa_about_booking_section{margin-top:0;}
+	.spa_about_inner_section{padding:0;}
+	.spa_booking_pricing_index_wrapper{
+    padding: 400px 0 70px;
+}
+.spa_gallery_filter_main_wrapper{
+	margin-top:100px;
+}
+.list-grid, .short, .pagein{
+	text-align:center;
+	
+}
+.short, .pagein{
+	margin-top:20px;
+}
+footer .footer-top .map-area{
+	padding-left:0;
+}
+footer .footer-top .map-area address{
+	display:none;
+}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+		.product-details .product-discription .total-product {
+		width: 100%;
+		}
+		.product-discription .btn1 {
+			margin-top:30px;
+		}
+	.slider-area .content h2{font-size: 28px;margin: 0 0 20px;}
+	.slider-area .content p{margin: 0 0 26px;}
+	.slider-area .owl-controls .owl-pagination{width: 54%;}
+	.slider-area{padding: 150px 0;}
+	.services-area .slider-list .content-services .content-list-left .ico-ser{margin-right: 20px;}
+	.services-area .slider-list .content-services .content-list-right .ico-ser{margin-left: 20px;}
+	.services-area .slider-list .content-services .content-list-right .con-ser{display: table;}
+	.services-area .slider-list .content-services .content-list-left .ico-ser .icons span{width: 70px;height: 70px;}
+	.services-area .slider-list .content-services{padding: 35px 20px;}
+	.services-area .owl-controls .owl-buttons div.owl-prev{margin-left: 130px;}
+	.services-area .owl-controls .owl-buttons{top: -27px;}
+	.services-area .slider-list .content-services .content-list-right .ico-ser .icons span{width: 70px;height: 70px;}
+	.section-heading-one h2::after{height: 25px;}
+	.section-heading-two h2::after{height: 25px;}
+	.section-heading-two h2{font-size: 30px;padding: 0 0 40px;}
+	.section-heading-one h2{font-size: 30px;padding: 0 0 40px;}
+	.testimonial-area .testimonial-list .content p{font-size: 30px;width: 95%;}
+	.about-area .about-content .title{font-size: 30px;}
+	.about-area .about-content h2{font-size: 26px;}
+	.about-area .about-photo{margin: 0 0 60px;}
+	.price-table-area .price-list .price-plan{padding: 40px 0;}
+	.section-heading-two h2{font-size: 28px;}
+	.therapies-area .therapies .therrap-details h2{font-size: 26px;}
+	.therapies-area .therapies .threapies-form{padding: 35px 30px;}
+	.team-area .team-list{margin: 0 0 40px !important;}
+	.videos-area .videos{margin-bottom: -80px;}
+	.videos-area .videos .tab-content .tab-pane figure{border:20px solid #fff;}
+	.videos-area .videos .tab-content .tab-pane figure a{width: 60px;height: 60px;line-height: 60px;font-size: 24px;top: 30%;}
+	.blog-area{margin-top: 155px;}
+	.blog-button .btn1{margin-top: 10px;}
+	.twitter-area .twitter-post span{width: 50px;font-size: 40px;}
+	.twitter-area .twitter-post .con{padding: 32px 0 32px 32px;}
+	footer .footer-top .map-area address{top: 10%;width: 75%;}
+	footer .footer-top .about-spa h2{font-size: 30px;}
+	footer .footer-top .con-info ul li p{font-size: 22px;}
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width: 1199px) {
+	.contact-area .contact-info{
+		margin: 0 0 80px;
+	}
+	.mr-b50{
+		margin:0;
+	}
+	.top_navi_btn{
+		display:none;
+	}
+}
+@media (max-width: 1350px){
+	.con-tc{display:none;}
+}
+@media (max-width: 810px){
+	#sticky .main-menu nav ul li a{
+		font-size:12px;
+	}
+}

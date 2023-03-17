@@ -1,0 +1,52 @@
+.twitter-area{
+	display: block;
+	margin: 0 0 -70px;
+	position: relative;
+	z-index: 999;
+	.twitter-post{
+		background: $primary-color;
+		display: block;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		vertical-align: middle;
+		span{
+			font-size: 60px;
+			color: #fff;
+			width: 125px;
+			display: inline-block;
+			height: 100%;
+			position: relative;
+			float: left;
+			line-height: 150px;
+			text-align: center;
+			i{
+				position: relative;
+				z-index: 999;
+			}
+			&:after{
+				content:'';
+				position: absolute;
+				left: -100px;
+				right: -10px;
+				top: -100%;
+				bottom: -100%;
+				background: #59bb5d;
+				transform: rotate(15deg);
+			}
+		}
+		.con{
+			display: table;
+			padding: 32px 0 32px 50px;
+			p{
+				margin: 0 0 6px;
+				color: #fff;
+				width: 70%;
+			}
+			a{
+				color: #fff;
+				opacity: 0.5;
+			}
+		}
+	}
+}

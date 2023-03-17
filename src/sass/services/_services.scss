@@ -1,0 +1,236 @@
+.services-area{
+    display: block;
+    margin: 0 0 -150px;
+    position: relative;
+    z-index: 999;
+    .slider-list{
+        position: relative;
+        display: block;
+        width: 100%;
+        .left-img{
+            .top-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .bott-img{
+                padding-left: 100px;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .rigth-img{
+            display: block;
+            margin-top: 100px;
+            img{
+                width: 100%;
+            }
+        }
+        .content-services{
+            position: absolute;
+            top: 150px;
+            width: 430px;
+            height: auto;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: #fff;
+            padding: 65px 60px;
+            display: inline-block;
+            .content-list-left{
+                position: relative;
+                display: block;
+                &:after{
+                    content:'';
+                    position: absolute;
+                    left: -95px;
+                    width: 70px;
+                    height: 1px;
+                    background: $primary-color;
+                    right: 0;
+                    top: 50px;
+                }
+                .ico-ser{
+                    float: left;
+                    display: inline-block;
+                    margin-right: 30px;
+                    .icons{
+                        position: relative;
+                        &:after{
+                            content:'';
+                            position: absolute;
+                            left: 50%;
+                            right: 50%;
+                            top: 50%;
+                            bottom: 50%;
+                            background: $primary-color;
+                            border-radius: 100%;
+                            transition: $transition;
+                        }
+                        span{
+                            display: block;
+                            width: 100px;
+                            height: 100px;
+                            line-height: 100%;
+                            border-radius: 100%;
+                            border: 1px solid #e0e0e0;
+                            position: relative;
+                            z-index: 999;
+                            transition: $transition;
+                            &.ser1{
+                                background: url(images/icons/2.png) no-repeat center;
+                                transition: $transition;
+                            }
+                            &.ser2{
+                                background: url(images/icons/3.png) no-repeat center;
+                            }
+                            &.ser3{
+                                background: url(images/icons/4.png) no-repeat center;
+                            }
+                        }
+                    }
+                        
+                }
+                .con-ser{
+                    display: table;
+                    h4{
+                        font-size: 22px;
+                        font-family: $title-font;
+                        color: #212121;
+                        font-weight: 600;
+                        margin: 0 0 10px;
+                        text-transform: capitalize;
+                    }   
+                    p{
+                        margin:  0 0 5px; 
+                    }
+                    a{
+
+                    }
+                }
+                &:hover{
+                    .ico-ser{
+                        .icons{
+                            &:after{
+                                left:0;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                            }
+                            span{
+                                border: 1px solid $primary-color;
+                                &.ser1{
+                                    background: url(images/icons/2h.png) no-repeat center;
+                                }
+                                &.ser2{
+                                    background: url(images/icons/3h.png) no-repeat center;
+                                }
+                                &.ser3{
+                                    background: url(images/icons/4h.png) no-repeat center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .content-list-right{
+                position: relative;
+                display: block;
+                margin: 50px 0;
+                &:after{
+                    content:'';
+                    position: absolute;
+                    right: -95px;
+                    width: 70px;
+                    height: 1px;
+                    background: $primary-color;
+                    top: 50px;
+                }
+                .ico-ser{
+                    float: right;
+                    display: inline-block;
+                    margin-left: 30px;
+                    .icons{
+                        position: relative;
+                        &:after{
+                            content:'';
+                            position: absolute;
+                            left: 50%;
+                            right: 50%;
+                            top: 50%;
+                            bottom: 50%;
+                            background: $primary-color;
+                            border-radius: 100%;
+                            transition: $transition;
+                        }
+                        span{
+                            display: block;
+                            width: 100px;
+                            height: 100px;
+                            line-height: 100%;
+                            border-radius: 100%;
+                            border: 1px solid #e0e0e0;
+                            position: relative;
+                            z-index: 999;
+                            transition: $transition;
+                            &.ser1{
+                                background: url(images/icons/2.png) no-repeat center;
+                                transition: $transition;
+                            }
+                            &.ser2{
+                                background: url(images/icons/3.png) no-repeat center;
+                            }
+                            &.ser3{
+                                background: url(images/icons/4.png) no-repeat center;
+                            }
+                        }
+                    }
+                        
+                }
+                .con-ser{
+                    display: table;
+                    text-align: right;
+                    h4{
+                        font-size: 22px;
+                        font-family: $title-font;
+                        color: #212121;
+                        font-weight: 600;
+                        margin: 0 0 10px;
+                        text-transform: capitalize;
+                    }   
+                    p{
+                        margin:  0 0 5px; 
+                    }
+                    a{
+
+                    }
+                }
+                &:hover{
+                    .ico-ser{
+                        .icons{
+                            &:after{
+                                left:0;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                            }
+                            span{
+                                border: 1px solid $primary-color;
+                                &.ser1{
+                                    background: url(images/icons/2h.png) no-repeat center;
+                                }
+                                &.ser2{
+                                    background: url(images/icons/3h.png) no-repeat center;
+                                }
+                                &.ser3{
+                                    background: url(images/icons/4h.png) no-repeat center;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

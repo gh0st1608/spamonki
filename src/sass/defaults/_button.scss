@@ -1,0 +1,130 @@
+/***Button***/
+.btn1{
+	position: relative;
+	display: inline-block;
+	line-height: 48px;
+	font-family: $body-font;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 35px;
+	border-radius: 50px;
+	border:1px solid $primary-color;
+	&:after{
+		content:'';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: $primary-color;
+		border-radius: 50px;
+		transition: $transition;
+	}
+	span{
+		color: #fff;
+		position: relative;
+		z-index: 999;
+	}
+	&:hover{
+		&:after{
+			background:#379c3c;
+		}
+	}
+}
+.btn2{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	transition: all 0s;
+	color: #212121;
+	&:after{
+		content:'';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(255, 255, 255, 0.7);
+		transition: $transition;
+	}
+	i{
+		padding-left: 5px;
+	}
+	&:hover{
+		color: $primary-color;
+		&:after{
+			left:100%;
+		}
+	}
+}
+.btn3{
+	position: relative;
+	display: inline-block;
+	line-height: 48px;
+	font-family: $body-font;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 35px;
+	border-radius: 50px;
+	border:1px solid #e0e0e0;
+	&:after{
+		content:'';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: #fff;
+		border-radius: 50px;
+		transition: $transition;
+	}
+	span{
+		color: #212121;
+		position: relative;
+		z-index: 999;
+		transition: $transition;
+	}
+	&:hover{
+		background:#fff;
+		span{
+			color: #fff;
+		}
+		&:after{
+			left: 0;
+			right:0;
+			top: 0;
+			bottom: 0;
+			background: $primary-color;
+		}
+	}
+}
+.btn4{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	position: relative;
+	color:  $primary-color;
+	&:after{
+		content:'';
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(255, 255, 255, 0);
+		transition: $transition;
+	}
+	i{
+		padding-left: 5px;
+	}
+	&:hover{
+		color: #212121;
+		&:after{
+			left:100%;
+			background: rgba(255, 255, 255, 0.7);
+		}
+	}
+}

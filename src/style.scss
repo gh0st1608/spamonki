@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:300,400,500,600,700,800|Montez');
+/*-------------------------------------
+    
+	Author: Webstrot 
+	Copyright ©2018
+	
+---------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+	2. Header area start here
+	3. Slider area start here
+	4. About area start here
+	5. Banner area start here
+	6. Blog area start here
+	7. Contact area start here
+	8. Footer area start here
+	9. Breadcumb area start here
+	10. Faq area start here
+
+---------------------------------------*/
+
+/*....................................
+1.Theme default CSS
+....................................*/
+$body-font: 'Lato', sans-serif;
+$title-font: 'Raleway', sans-serif;
+$second-font: 'Montez', cursive;
+$transition: all 0.3s;
+$primary-color: #4caf50;
+html,
+body {
+  font-size: 16px;
+  color: #797979;
+  font-family: $body-font;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+}
+/* ....................................
+1.1 Reset CSS 
+.......................................*/
+@import 'sass/defaults/_defaults.scss';
+
+
+
+/*....................................
+2. Header area start here
+....................................*/
+@import 'sass/header/_con.scss';
+
+
+/*....................................
+3. Slider area start here
+....................................*/
+@import 'sass/slider/_slider.scss';
+
+
+/*....................................
+4. About area start here
+....................................*/
+@import 'sass/about/_about.scss';
+
+
+/*....................................
+7. Blog area start here
+....................................*/
+@import 'sass/blog/_con.scss';
+
+
+
+/*....................................
+9. Contact area start here
+....................................*/
+@import 'sass/contact/_con.scss';
+
+
+/*....................................
+10. Footer area start here
+....................................*/
+@import 'sass/footer/_con.scss';
+
+
+/*....................................
+11. Breadcumb area start here
+....................................*/
+@import 'sass/breadcumb/_breadcumb.scss';
+
+
+
+/*....................................
+6. Banner area start here
+....................................*/
+@import 'sass/banner/_banner.scss';
+
+
+
+/*....................................
+5. Team area start here
+....................................*/
+@import 'sass/team/_team.scss';
+
+
+/*....................................
+8. Price list area start here
+....................................*/
+@import 'sass/price-list/_pricelist.scss';
+
+
+/*....................................
+12. Faq area start here
+....................................*/
+@import 'sass/faq/_faq.scss';
+
+
+/*....................................
+12. Services area start here
+....................................*/
+@import 'sass/services/_services.scss';
+
+
+/*....................................
+12. Testimonial area start here
+....................................*/
+@import 'sass/testimonial/_testimonial.scss';
+
+
+/*....................................
+12. Products area start here
+....................................*/
+@import 'sass/products/_products.scss';
+
+
+/*....................................
+12. Gallery area start here
+....................................*/
+@import 'sass/gallery/_gallery.scss';
+
+
+/*....................................
+12. Therapies area start here
+....................................*/
+@import 'sass/therapies/_therapies.scss';
+
+
+/*....................................
+12. Videos area start here
+....................................*/
+@import 'sass/videos/_videos.scss';

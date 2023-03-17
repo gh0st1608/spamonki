@@ -1,0 +1,146 @@
+footer{
+	.footer-top{
+		position: relative;
+		z-index: 999;
+		.about-spa{
+			display: block;
+			margin: 0 0 40px;
+			span{
+				font-family: $second-font;
+				color: $primary-color;
+				font-size: 36px;
+				display: block;
+				margin: 0 0 25px;
+			}
+			h2{
+				font-family: $title-font;
+				font-weight: 800;
+				font-size: 36px;
+				display: block;
+				text-transform: uppercase;
+				color: #fff;
+			}
+			p{
+				display: block;
+				margin: 0 0 0 35px;
+				padding: 0 0 0 35px;
+				position: relative;
+				font-size: 15px;
+				color: rgba(255, 255, 255, 0.5);
+				&:after{
+					content:'';
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					width: 1px;
+					background: $primary-color;
+				}
+			}
+		}
+		.subs-box{
+			display: block;
+			margin: 0 0 40px;
+			form{
+				display: block;
+				width: 100%;
+				position: relative;
+				label{
+					font-family: $title-font;
+					font-weight: 700;
+					font-size: 18px;
+					text-transform: uppercase;
+					color: #fff;
+					display: block;
+					margin: 0 0 30px;
+				}
+				input{
+					width: 100%;
+					background: transparent;
+					height: 50px;
+					line-height: 48px;
+					border:1px solid rgba(255, 255, 255, 0.2);
+					padding: 0 20px;
+				}
+				button{
+					position: absolute;
+					line-height: 50px;
+					background: transparent;
+					padding: 0 20px;
+					bottom: 0;
+					right: 0;
+					color: $primary-color;
+					transition: $transition;
+					&:hover{
+						background:$primary-color;
+						color: #fff;
+					}
+				}
+			}
+		}
+		.con-info{
+			ul{
+				li{
+					display: block;
+					padding: 0 0 20px;
+					&:last-child{
+						padding:0;
+					}
+					span{
+						color: $primary-color;
+						display: inline-block;
+						float: left;
+						font-size: 24px;
+						margin-right: 15px;
+						width: 40px;
+						font-weight: 300;
+					}
+					p{
+						display: table;
+						margin: 0;
+						font-size: 24px;
+						color: #fff;
+						font-weight: 400;
+						strong{
+							font-weight: 400;
+							color: $primary-color;
+						}
+					}
+				}
+			}
+		}
+		.map-area{
+			display: block;
+			position: relative;
+			width: 100%;
+			padding-left: 80px;
+			figure{
+				display: block;
+				width: 100%;
+				img{
+				}
+			}
+			address{
+				position: absolute;
+				left: 0;
+				top: 50%;
+				background: $primary-color;
+				padding: 30px;
+				display: inline-block;
+				width: 40%;
+				strong{
+					color: #fff;
+					font-family: $title-font;
+					font-weight: 800;
+					margin: 0 0 10px;
+					text-transform: uppercase;
+					font-size: 24px;
+				}
+				p{
+					margin: 0;
+					color: #fff;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,166 @@
+.about-area{
+	.about-content{
+		.title{
+			color: $primary-color;
+			font-family: $second-font;
+			font-size: 36px;
+			display: block;
+			margin: 0 0 15px;
+		}
+		h2{
+			font-family: $title-font;
+			font-weight: 800;
+			font-size: 36px;
+			color: #212121;
+			text-transform: uppercase;
+		}
+		.desc{
+			display: block;
+			position: relative;
+			margin: 0 0 0 30px;
+			padding:  0 0 0 40px;
+			&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				width: 1px;
+				background: $primary-color;
+			}
+			p{
+			}
+			a{
+
+			}
+		}
+	}
+	.about-photo{
+		display: block;
+		margin: 0 0 95px;
+		figure{
+			position: relative;
+			padding-right: 30px;
+			display: block;
+			img{
+				width: 100%;
+			}
+			a{
+				position: absolute;
+				bottom: 70px;
+				right: 0;
+				background: $primary-color;
+				line-height: 50px;
+				color: #fff;
+				padding: 0 25px;
+				&:after{
+					content: "";
+				    position: absolute;
+				    border-bottom: 15px solid;
+				    bottom: -15px;
+				    border-left: 30px solid #247b28;
+				    right: 0;
+				}
+				span{
+
+				}
+			}
+		}
+	}
+	.odd-box{
+		text-align: center;
+		padding: 50px 10px;
+	    position: relative;
+	    -webkit-transition: all 200ms ease-in;
+	    -webkit-transform: scale(1);
+	    -ms-transition: all 200ms ease-in;
+	    -ms-transform: scale(1);
+	    -moz-transition: all 200ms ease-in;
+	    -moz-transform: scale(1);
+	    transition: all 200ms ease-in;
+	    transform: scale(1);
+	    &.box1{
+	    	background: $primary-color;
+	    }
+	    &.box2{
+	    	background: #5ABB5E;
+	    }
+		.spa-icon{
+			display: block;
+			margin: 0 0 20px;
+			span{
+				height: 50px;
+				display: block;
+				width: 100%;
+			}
+			.ti-cut1{
+				background: url(images/icons/6.png) no-repeat center;
+				transition: $transition;
+			}
+			.ti-cut2{
+				background: url(images/icons/7.png) no-repeat center;
+				transition: $transition;
+			}
+			.ti-cut3{
+				background: url(images/icons/8.png) no-repeat center;
+				transition: $transition;
+			}
+			.ti-cut4{
+				background: url(images/icons/9.png) no-repeat center;
+				transition: $transition;
+			}
+			.ti-cut5{
+				background: url(images/icons/10.png) no-repeat center;
+				transition: $transition;
+			}
+			.ti-cut6{
+				background: url(images/icons/11.png) no-repeat center;
+				transition: $transition;
+			}
+		}
+		h5{
+			font-size: 16px;
+			font-family: $title-font;
+			font-weight: 600;
+			color: #fff;
+			margin: 0;
+			transition: $transition;
+		}
+		&:hover{
+			background: #fff;
+			box-shadow: 0px 0px 20px #989898;
+		    z-index: 2;
+		    -webkit-transition: all 300ms ease-in;
+		    -webkit-transform: scale(1.1);
+		    -ms-transition: all 300ms ease-in;
+		    -ms-transform: scale(1.1);
+		    -moz-transition: all 300ms ease-in;
+		    -moz-transform: scale(1.1);
+		    transition: all 300ms ease-in;
+		    transform: scale(1.1);
+		    .spa-icon{
+		    	.ti-cut1{
+					background: url(images/icons/6h.png) no-repeat center;
+				}
+				.ti-cut2{
+					background: url(images/icons/7h.png) no-repeat center;
+				}
+				.ti-cut3{
+					background: url(images/icons/8h.png) no-repeat center;
+				}
+				.ti-cut4{
+					background: url(images/icons/9h.png) no-repeat center;
+				}
+				.ti-cut5{
+					background: url(images/icons/10h.png) no-repeat center;
+				}
+				.ti-cut6{
+					background: url(images/icons/11h.png) no-repeat center;
+				}
+		    }
+		    h5{
+		    	color: #212121;
+		    }
+		}
+	}
+}

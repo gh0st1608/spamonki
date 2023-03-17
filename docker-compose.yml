@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+    nginx:
+        restart: always
+        build:
+            context: ./web
+            dockerfile: Dockerfile
+        container_name: nginx_dev
+        ports:
+            - "82:80"
+        volumes: 
+            - ./src:/opt/web
+            - ./web/error_dev:/var/log/nginx
